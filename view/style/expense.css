@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(246, 249, 250);
+    text-align: left;
+    font-family: sans-serif;
+
+    
+}
+input{
+    padding: 10px;
+    height: 19px;
+    width:auto;
+    border-radius: 10px;
+}
+select{
+    padding: 10px;
+    height: 44px;
+    width: auto;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+}
+button{
+
+    height: 35px;
+    border-radius: 5%;
+    width: auto;
+}
+button:hover{
+
+    background-color:rgb(106, 119, 106);
+}
+#expense{
+    width: 100%;
+    display: flex;
+}
+.left_div {
+    margin-left: 20px;
+    width: 50%;
+    float: left;
+}
+.right_div {
+    width: 50%;
+    float: right;
+}
+h1{
+    text-align: center;
+}
+#border_color #list-user{
+    padding-left: 200px;
+}
+li{
+    list-style-type: none;
+}
+#userleader-button input{
+    height: 35px;
+    border-radius: 5%;
+    width: auto;
+}
+#pagination_flex button{
+  display: flex;
+  margin-left: 5px;
+  text-align: center;
+
+}
+#pagination_flex{
+    display: flex;
+    padding: 30 px;
+    text-align: center;
+  }
+#pagenumber{
+    border: 2px solid black;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#pagenumber{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
